@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Birthday Greeting</title>
+  <link rel="stylesheet" href="css/styles.css">
 
   <style>
     body {
@@ -23,7 +24,7 @@
       position: relative;
       margin: 30px auto;
       width: 100%;
-      max-width: 500px;
+      max-width: 500px; /* بزرگ‌تر روی دسکتاپ */
     }
 
     #cake-svg-img {
@@ -48,11 +49,15 @@
       animation: pop-in 0.5s ease-in-out;
     }
 
-    #celebrate-message {
-      font-size: 1.2rem;
-      color: #4caf50;
-      font-weight: bold;
-      margin-top: 10px;
+    @keyframes pop-in {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
     }
 
     .btn-main,
@@ -75,15 +80,11 @@
       background: linear-gradient(90deg, #ffb300 60%, #ff4081 100%);
     }
 
-    @keyframes pop-in {
-      0% {
-        transform: scale(0.8);
-        opacity: 0;
-      }
-      100% {
-        transform: scale(1);
-        opacity: 1;
-      }
+    #celebrate-message {
+      font-size: 1.2rem;
+      color: #4caf50;
+      font-weight: bold;
+      margin-top: -30px;
     }
 
     @media screen and (max-width: 600px) {
@@ -107,7 +108,7 @@
 
       #congrats-message {
         font-size: 1.1rem;
-        margin-bottom:20px;
+        margin-bottom: 20px;
         padding: 0 10px;
       }
 
@@ -119,7 +120,7 @@
 
       #celebrate-message {
         font-size: 1.1rem;
-        margin-top: 10px;
+        margin-top: 40px;
         padding: 0 10px;
       }
     }
@@ -128,28 +129,28 @@
 <body>
   <div class="container">
     <div id="cake-container">
-      <img id="cake-svg-img" src="img/cake.png" alt="Birthday Cake" />
+      <img id="cake-svg-img" src="img/cake.png" alt="Birthday Cake">
       <canvas id="cake-candle-canvas"></canvas>
+
+      <div class="greeting-card" id="greeting-card">
+        <div id="lottie-confetti" style="width:320px;max-width:90vw;margin:0 auto;"></div>
+
+        <!-- متن‌ها و دکمه زیر کیک -->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 20px;">
+          <div id="congrats-message" style="display: none;">
+            Wishing you a day filled with happiness and a year filled with joy. Happy Birthday!
+          </div>
+
+          <div id="celebrate-message" style="display: none;">
+            🎉 The candle is out! Happy Birthday!🎉
+            <audio id="birthday-audio" src="audio/birthday.mp3"></audio>
+          </div>
+
+          <button class="btn btn-secondary" id="reset-btn" style="display: none;">Restart</button>
+        </div>
+      </div>
     </div>
 
-    <!-- انیمیشن لوتی همچنان بالای متن‌ها -->
-    <div id="lottie-confetti" style="width:320px;max-width:90vw;margin:0 auto;"></div>
-
-    <!-- پیام‌ها و دکمه ریست زیر کیک -->
-    <div style="margin-top: 20px;">
-      <div id="congrats-message" style="display: none;">
-        Wishing you a day filled with happiness and a year filled with joy. Happy Birthday!💗
-      </div>
-
-      <div id="celebrate-message" style="display: none;">
-        🎉 The candle is out! Happy Birthday!😍🎉
-        <audio id="birthday-audio" src="audio/birthday.mp3"></audio>
-      </div>
-
-      <button class="btn btn-secondary" id="reset-btn" style="display: none;">Restart</button>
-    </div>
-
-    <!-- دکمه اصلی زیر همه -->
     <button class="btn-main" id="blow-instruction">Blow out the candle!</button>
 
     <p style="margin-top: 20px;">First, make a wish. Then say:</p>

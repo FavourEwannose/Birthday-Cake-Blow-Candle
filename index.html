@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Birthday Greeting</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
 
   <style>
     body {
@@ -50,14 +50,21 @@
     }
 
     @keyframes pop-in {
-      0% { transform: scale(0.8); opacity: 0; }
-      100% { transform: scale(1); opacity: 1; }
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
     }
 
     .btn-main,
     .btn-secondary {
       background: linear-gradient(90deg, #ff4081 60%, #ffb300 100%);
-      width: 40%;
+      width: 60%;
+      max-width: 300px;
       border: none;
       color: #fffde7;
       font-weight: bold;
@@ -65,7 +72,7 @@
       border-radius: 18px;
       cursor: pointer;
       box-shadow: 0 4px 12px rgba(255, 64, 129, 0.3);
-      margin-top: 20px;
+      margin: 20px auto 0;
       font-size: 1rem;
     }
 
@@ -82,29 +89,20 @@
     }
 
     .blow-instruction {
-      margin-top: 25px;
-      text-align: center;
-      font-size: 1.2rem;
-      color: #444;
-      line-height: 1.5;
+      margin-top: 30px;
       padding: 0 10px;
     }
 
     .blow-instruction h2 {
-      color: #ff4081;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin: 10px 0;
+      color: #ff4081;
     }
 
     @media screen and (max-width: 600px) {
       #cake-container {
         max-width: 280px;
         margin: 20px auto;
-      }
-
-      #cake-svg-img {
-        width: 100%;
-        height: auto;
       }
 
       #cake-candle-canvas {
@@ -121,7 +119,8 @@
         padding: 0 10px;
       }
 
-      .btn-main, .btn-secondary {
+      .btn-main,
+      .btn-secondary {
         font-size: 0.9rem;
         padding: 10px 18px;
       }
@@ -129,38 +128,36 @@
       #celebrate-message {
         font-size: 1.1rem;
         margin-top: 30px;
-        padding: 0 10px;
-      }
-
-      .blow-instruction {
-        font-size: 1rem;
-        padding: 0 12px;
       }
 
       .blow-instruction h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div id="cake-container">
-      <img id="cake-svg-img" src="img/cake.png" alt="Birthday Cake">
+      <img id="cake-svg-img" src="img/cake.png" alt="Birthday Cake" />
       <canvas id="cake-candle-canvas"></canvas>
 
       <div class="greeting-card" id="greeting-card">
-        <div id="lottie-confetti" style="width:320px;max-width:90vw;margin:0 auto;"></div>
+        <div id="lottie-confetti" style="width: 320px; max-width: 90vw; margin: 0 auto;"></div>
 
         <div id="congrats-message" style="display: none;">
           Wishing you a day filled with happiness and a year filled with joy. Happy Birthday!
         </div>
-
-        <button class="btn btn-secondary" id="reset-btn" style="display: none;">Restart</button>
       </div>
-    </div>
 
-    <button class="btn-main" id="blow-instruction">Blow out the candle!</button>
+      <div id="celebrate-message" style="display: none;">
+        🎉 The candle is out! Happy Birthday! Go down 🎉
+        <audio id="birthday-audio" src="audio/birthday.mp3"></audio>
+      </div>
+
+      <button class="btn btn-secondary" id="reset-btn" style="display: none;">Restart</button>
+    </div>
 
     <div class="blow-instruction">
       <p>First, make a wish. 🎁</p>
@@ -168,10 +165,7 @@
       <p>...and blow out the candle 🎂💨</p>
     </div>
 
-    <div id="celebrate-message" style="display: none;">
-      🎉 The candle is out! Happy Birthday! Go down 🎉
-      <audio id="birthday-audio" src="audio/birthday.mp3"></audio>
-    </div>
+    <button class="btn-main" id="blow-instruction">Blow out the candle!</button>
   </div>
 
   <script src="https://unpkg.com/lottie-web@5.12.2/build/player/lottie.min.js"></script>

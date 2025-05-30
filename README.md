@@ -42,3 +42,14 @@ A fun and interactive birthday website featuring a musical cake with animated ca
 ```bash
 git clone https://github.com/VIDAKHOSHPEY22/birthday
 cd birthday
+
+
+## 👩‍💻 About the Creator
+
+Hi! I'm **Vida Khoshpey**, a self-taught full-stack developer from Iran.  
+I love building fun and interactive projects that mix creativity and code.
+
+This cake was made with care — and I'm open to feedback or improvements!  
+Feel free to fork, suggest, or contribute.
+
+📧 vviiddaa2@gmail.com | 💬 [@Vida_twin](https://t.me/Vida_twin) | 🔗 [GitHub](https://github.com/VIDAKHOSHPEY22)

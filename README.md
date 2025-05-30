@@ -45,7 +45,7 @@ cd birthday
 ```
 ## 👩‍💻 About the Creator
 
-Hi! I'm **Vida Khoshpey**, a self-taught full-stack developer from Iran.  
+Hi! I'm **Vida**, a self-taught full-stack developer from Iran.  
 I love building fun and interactive projects that mix creativity and code.
 
 This cake was made with care — and I'm open to feedback or improvements!  

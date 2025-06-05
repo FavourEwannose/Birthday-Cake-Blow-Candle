@@ -44,14 +44,13 @@ body, html {
     pointer-events: none;
     z-index: 2;
     background: transparent;
-    /* افکت نورانی پایه */
     filter: drop-shadow(0 0 32px #fffde7) drop-shadow(0 0 64px #ffe082) drop-shadow(0 0 24px #ffd600cc);
     transition: filter 0.4s, opacity 0.4s;
 }
 
 #cake-candle-canvas.candle-off {
-    filter: none !important; /* حذف نور */
-    opacity: 1; /* شمع باقی می‌ماند */
+    filter: none !important;
+    opacity: 1;
 }
 
 #cake-candle-canvas::after {
@@ -71,11 +70,9 @@ body, html {
     transition: opacity 0.4s;
 }
 
-/* فقط نور حذف شود */
 #cake-candle-canvas.candle-off::after {
     opacity: 0 !important;
 }
-
 
 #celebrate-message {
     margin-top: 2rem;
@@ -152,6 +149,7 @@ body, html {
     box-shadow: 0 2px 12px #ff408144;
     transition: background 0.2s, color 0.2s;
 }
+
 .btn-main:hover {
     background: linear-gradient(90deg, #ffb300 60%, #ff4081 100%);
     color: #fffde7;
@@ -170,9 +168,9 @@ body, html {
     margin: 2rem auto 0 auto;
     max-width: 340px;
     font-family: inherit;
-    z-index: 9999; /* بالاتر از همه */
+    z-index: 9999;
     animation: pop-in 0.7s cubic-bezier(.23,2,.6,1);
-    position: fixed;   /* همیشه وسط صفحه */
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -183,6 +181,7 @@ body, html {
     80% { transform: scale(1.05); opacity: 1; }
     100% { transform: scale(1); }
 }
+
 .congrats-message {
     font-size: 1.25rem;
     color: #d81b60;
@@ -192,6 +191,7 @@ body, html {
     text-shadow: 0 2px 8px #fffde7, 0 1px 0 #fff;
 }
 
+/* نسخه موبایل */
 @media (max-width: 600px) {
     #cake-container {
         max-width: 99vw;
@@ -206,5 +206,37 @@ body, html {
     }
     .card-front {
         padding: 1rem 0.5rem;
+    }
+}
+
+/* نسخه دسکتاپ */
+@media (min-width: 768px) {
+    #cake-container {
+        max-width: 640px;
+    }
+
+    #cake-svg-img {
+        max-width: 640px;
+    }
+
+    .greeting-card {
+        max-width: 440px;
+    }
+
+    .card-front {
+        padding: 2rem 1.5rem;
+    }
+
+    .card-3d-text {
+        font-size: 1.4rem;
+    }
+
+    .btn-main {
+        font-size: 1.2rem;
+        padding: 0.9rem 2.5rem;
+    }
+
+    .congrats-box {
+        max-width: 420px;
     }
 }

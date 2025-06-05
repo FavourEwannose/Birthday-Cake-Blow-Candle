@@ -227,12 +227,12 @@ body, html {
 @media (min-width: 768px) {
   /* کیک و شمع کمی پایین‌تر قرار بگیرند */
   #cake-container {
-    margin-top: 40px; /* فاصله بالا */
-    margin-bottom: 3rem; /* کمی بیشتر از موبایل */
+    margin-top: 60px; /* فاصله بالا */
+    margin-bottom: 5rem; /* کمی بیشتر از موبایل */
   }
 
   #cake-candle-canvas {
-    top: -40px; /* پایین‌تر نسبت به قبل */
+    top: -60px; /* پایین‌تر نسبت به قبل */
   }
 
   /* پیام تبریک */

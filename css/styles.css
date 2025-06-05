@@ -23,7 +23,7 @@ body, html {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   width: 100%;
   max-width: 520px;
 }
@@ -219,5 +219,59 @@ body, html {
 
   .card-front {
     padding: 1rem 0.5rem;
+  }
+}
+
+
+/* استایل بهبود یافته برای دسکتاپ */
+@media (min-width: 768px) {
+  /* کیک و شمع کمی پایین‌تر قرار بگیرند */
+  #cake-container {
+    margin-top: 40px; /* فاصله بالا */
+    margin-bottom: 3rem; /* کمی بیشتر از موبایل */
+  }
+
+  #cake-candle-canvas {
+    top: -40px; /* پایین‌تر نسبت به قبل */
+  }
+
+  /* پیام تبریک */
+  #celebrate-message {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+
+  /* متن کارت تبریک */
+  .card-3d-text {
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+  }
+
+  /* دکمه‌ها */
+  .btn-main {
+    font-size: 1.3rem;
+    padding: 0.9rem 2.5rem;
+  }
+
+  /* پیام تبریک نهایی */
+  .congrats-message {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  /* جعبه تبریک نهایی */
+  .congrats-box {
+    padding: 2.5rem 2rem;
+    max-width: 420px;
+  }
+
+  /* کارت تبریک */
+  .greeting-card {
+    max-width: 420px;
+  }
+
+  .card-front {
+    padding: 2rem 1.5rem;
   }
 }

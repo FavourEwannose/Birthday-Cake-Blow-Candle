@@ -52,3 +52,8 @@ This cake was made with care — and I'm open to feedback or improvements!
 Feel free to fork, suggest, or contribute.
 
 📧 vviiddaa2@gmail.com | 💬 [@Vida_twin](https://t.me/Vida_twin) | 🔗 [GitHub](https://github.com/VIDAKHOSHPEY22)
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.

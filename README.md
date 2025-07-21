@@ -30,9 +30,10 @@ A fun and interactive birthday website featuring a musical cake with animated ca
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="img/preview1.jpg" alt="Cake Screenshot 1" width="300"/>
-  <img src="img/preview2.jpg" alt="Cake Screenshot 2" width="300"/>
-  <img src="img/preview3.jpg" alt="Cake Screenshot 3" width="300"/>
+  <img src="img/preview.png" alt="Cake Screenshot 1" width="300"/>
+  <img src="img/preview1.png" alt="Cake Screenshot 1" width="300"/>
+  <img src="img/preview2.png" alt="Cake Screenshot 2" width="300"/>
+  <img src="img/preview3.png" alt="Cake Screenshot 3" width="300"/>
 </p>
 
 ---

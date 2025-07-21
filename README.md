@@ -6,6 +6,8 @@ A delightful web experience where users can virtually blow out candles using voi
 
 [![Demo Preview](img/preview.png)](https://birthday-kohl-nine.vercel.app/)
 
+---
+
 ## ✨ Magical Features
 
 | Feature          | Description                                                                 |
@@ -50,17 +52,42 @@ git clone https://github.com/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle.git
 cd Birthday-Cake-Blow-Candle
 
 ```
-## 👩‍💻 About the Creator
+---
+## 📦 Birthday-Cake-Blow-Candle
 
-Hi! I'm **Vida**, a self-taught full-stack developer from Iran.  
-I love building fun and interactive projects that mix creativity and code.
+``` text
 
-This cake was made with care — and I'm open to feedback or improvements!  
-Feel free to fork, suggest, or contribute.
+📦 Birthday-Cake-Blow-Candle
+├── 📂 audio
+│   └── 🎵 birthday.mp3          # Birthday music track
+├── 📂 css                       # Stylesheets directory
+├── 📂 img
+│   ├── 🎂 cake.png              # Main cake image
+│   ├── 📸 preview.png           # Screenshot 1
+│   ├── 📸 preview1.png          # Screenshot 2
+│   ├── 📸 preview2.png          # Screenshot 3
+│   ├── 📸 preview3.png          # Screenshot 4
+│   └── 📸 preview4.png          # Screenshot 5
+├── 📂 js
+│   └── 🕯️ candle_on_cake.js    # Main interactive script
+├── 📄 googlea4377f019e81adff.html # Google verification
+├── 📄 index.html                # Main entry point
+├── 📄 LICENCE                   # License file
+└── 📄 README.md                 # Project documentation
+```
+---
 
-📧 vviiddaa2@gmail.com | 💬 [@Vida_twin](https://t.me/Vida_twin) | 🔗 [GitHub](https://github.com/VIDAKHOSHPEY22)
+# 👩‍💻 About Me  
 
+Hi! I'm **Vida**, a passionate developer from Iran.  
+I enjoy creating fun, interactive projects where creativity meets code.  
 
-## License
+This project was crafted with care — feel free to fork, suggest improvements, or contribute!  
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+## 📫 Let's Connect  
+- ✉️ Email: [vviiddaa2@gmail.com](mailto:vviiddaa2@gmail.com)  
+- 💬 Telegram: [@Vida_twin](https://t.me/Vida_twin)  
+- 🔗 GitHub: [VIDAKHOSHPEY22](https://github.com/VIDAKHOSHPEY22)  
+
+## 📜 License  
+MIT License - see [LICENSE](./LICENSE) for details.  

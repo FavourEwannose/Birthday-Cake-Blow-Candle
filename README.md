@@ -2,7 +2,7 @@
 
 A delightful web experience where users can virtually blow out candles using voice commands, accompanied by music, animations, and confetti explosions. Perfect for remote birthday celebrations!
 
-🌐 **Live Demo**: [Celebrate Now →](https://birthday-kohl-nine.vercel.app/)
+🌐 **Live Demo**: [Celebrate Now 🎂😍→](https://birthday-kohl-nine.vercel.app/)
 
 [![Demo Preview](img/preview.png)](https://birthday-kohl-nine.vercel.app/)
 

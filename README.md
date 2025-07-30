@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="https://img.shields.io/github/stars/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/last-commit/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/top/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle" alt="Top Language" />
+  <img src="https://img.shields.io/github/issues/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle" alt="Open Issues" />
+  <img src="https://img.shields.io/github/license/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle" alt="License" />
+</p>
+
+---
+
+
 # 🎂 Interactive Birthday Cake - Voice-Controlled Celebration Web App🕯️🥰
 
 A delightful web experience where users can virtually blow out candles using voice commands, accompanied by music, animations, and confetti explosions. Perfect for remote birthday celebrations!

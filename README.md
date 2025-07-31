@@ -105,5 +105,3 @@ This project was crafted with care — feel free to fork, suggest improvements, 
 MIT License - see [LICENSE](./LICENSE) for details.  
 
 
-
-42

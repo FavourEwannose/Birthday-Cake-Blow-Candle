@@ -1,4 +1,4 @@
-<!--that's 😎 your birthday? happy birthday-->
+<!--that's 😎 your birthday? happy birthday to you-->
 <p align="center">
   <img src="https://img.shields.io/github/stars/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle?style=social" alt="GitHub Stars" />
   <img src="https://img.shields.io/github/forks/VIDAKHOSHPEY22/Birthday-Cake-Blow-Candle?style=social" alt="GitHub Forks" />

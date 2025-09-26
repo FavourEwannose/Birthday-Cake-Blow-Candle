@@ -30,9 +30,9 @@ body {
 /* Cake Container */
 #cake-container {
   position: relative;
+   max-height: 1050px;
   width: 100%;
   max-width: 500px;
-  max-height: 1100px;
   margin: 40px 0 20px; /* Reduced bottom margin */
 }
 
@@ -154,7 +154,7 @@ body {
   margin-top: 10px; /* Reduced margin */
   box-shadow: 0 4px 12px rgba(74, 0, 224, 0.3);
   transition: all 0.3s ease;
-  display: none;
+  /* display: none; */
 }
 
 .btn-secondary:hover {

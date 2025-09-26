@@ -29,10 +29,12 @@
 
   /* Cake Container */
   #cake-container {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     max-width: 500px;
-    margin: 40px 0 20px; /* Reduced bottom margin */
+    max-height: 1100px;
+    margin: 0;
+    /* margin-bottom: -5rem; */
   }
 
   #cake-svg-img {
@@ -83,7 +85,6 @@
     text-align: center;
     line-height: 1.5;
     display: block;
-    margin-top: 300px;
     animation: 
       fadeIn 0.8s ease-out,
       subtleGlow 2s ease-in-out infinite alternate;
@@ -193,7 +194,7 @@
 
   /* Enhanced Greeting Card - POSITION ADJUSTED */
   .greeting-card {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 60%; /* Adjusted to appear lower */
     transform: translate(-50%, -50%);
